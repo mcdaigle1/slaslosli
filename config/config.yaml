@@ -1,0 +1,14 @@
+
+current_vendor: "prometheus"
+vendors:
+  prometheus:
+    url: http://localhost:9090
+    queries:
+      cpu_load: "promql query"
+      memory: "promql memory query"
+aws:
+  sso_profile: "Administrator-450287579526"
+  secret_arn: "arn:aws:secretsmanager:us-west-1:450287579526:secret:dev/slaslosli-QkdYJ2"
+  secret_name: "dev/slaslosli"
+  region: "us-west-1"
+log_level: DEBUG        

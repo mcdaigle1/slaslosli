@@ -1,0 +1,16 @@
+# Ignore compiled executables and build artifacts
+*.exe
+*.out
+*.bin
+
+# Ignore dependencies (for Go modules)
+vendor/
+pkg/
+
+# Ignore test-related files
+coverage.txt
+
+# Ignore VSCode configuration folder (optional - re-include specific files if needed)
+.vscode/
+/.vscode/
+!/.vscode/launch.json # Example: Re-include launch.json
